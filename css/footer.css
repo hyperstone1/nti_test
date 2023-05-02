@@ -31,14 +31,16 @@
 .menu_li {
   margin-bottom: 10px;
   font-size: 16px;
+  font-weight: 300;
   line-height: 19px;
   display: flex;
   align-items: center;
+  color: #292d32;
 }
 .footer_info {
   display: flex;
   margin-top: 40px;
-  gap: 153px;
+  gap: 152px;
 }
 .info {
   display: flex;
