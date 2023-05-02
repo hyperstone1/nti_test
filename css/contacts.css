@@ -1,0 +1,248 @@
+.contacts {
+  position: relative;
+
+  height: 1022px;
+}
+.contacts_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+.contacts_info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: #f9f9f9;
+  border-radius: 20px 0px 0px 20px;
+}
+.contacts_img_back {
+  position: absolute;
+  bottom: 0;
+}
+.contacts_img_phone {
+  position: absolute;
+  left: 35.2%;
+  top: 141px;
+}
+.contacts_info_text {
+  padding-top: 100px;
+}
+.contacts_info_text_title {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  /* identical to box height, or 100% */
+
+  color: #292d32;
+}
+.contacts_info_text_description {
+  margin-bottom: 49px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #838383;
+}
+
+.contacts_info__requisites {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 57px;
+}
+.contacts_info__requisites_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  padding: 0px 180px 0px 102px;
+}
+.email {
+  margin-bottom: 37px;
+}
+.contacts_info__requisites__text {
+  margin-top: 4px;
+}
+.contacts_info__requisites_title {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #838383;
+}
+
+.contacts_info__requisites_info {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+
+  color: #292d32;
+}
+.contacts_img {
+  position: absolute;
+  top: 151px;
+  left: 500px;
+}
+.contacts_form {
+  padding: 100px 137px 103px 129px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  width: 50%;
+  background: #292d32;
+  border-radius: 0px 20px 20px 0px;
+}
+.contacts_form_title {
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.contacts_form_subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 65.75px;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  color: #f2f2f2;
+  margin-bottom: 54px;
+}
+input {
+  width: 434px;
+  height: 59.25px;
+}
+input,
+textarea {
+  outline: none;
+  border: 1.5px solid rgba(242, 242, 242, 0.5);
+  border-radius: 20px;
+  background: transparent;
+}
+/* .contacts_btn {
+  padding-bottom: 103px;
+} */
+.contacts_btn_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #ffffff;
+}
+.email {
+  margin-top: 12px;
+}
+.social {
+}
+.social_icons {
+  display: flex;
+  gap: 18.29px;
+  margin-left: 3px;
+}
+.social_icon {
+}
+.pl-100 {
+  padding-left: 100px;
+}
+
+.label {
+  position: relative;
+}
+
+.label input {
+  display: block;
+  background: transparent;
+  padding: 1.1rem;
+  width: 100%;
+  height: 59px;
+  outline: none;
+  font-size: 16px;
+  border: 1.5px solid rgba(242, 242, 242, 0.5);
+  color: #fff;
+}
+textarea {
+  display: block;
+  background: transparent;
+  padding: 1.1rem;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border: 1.5px solid rgba(242, 242, 242, 0.5);
+  color: #fff;
+  resize: none;
+}
+
+.label input:hover,
+.label textarea:hover {
+  border-color: #8774e1;
+}
+
+.label input:focus,
+.label textarea:focus {
+  border: 2px solid #8774e1;
+}
+
+.label .placeholder {
+  font-size: 16px;
+  position: absolute;
+  width: calc(100% - (1.1rem * 2));
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 27px;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #9e9e9e;
+  transition: top 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1.3125;
+  padding: 0 5px;
+}
+
+.label input:not(:placeholder-shown),
+.label input:focus,
+.label textarea:not(:placeholder-shown),
+.label textarea:focus {
+  transition-delay: 0.1s;
+}
+
+.label .placeholder {
+  top: 2px;
+  left: 19px;
+  color: #8774e1;
+  background: #292d32;
+  width: auto;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+.placeholder_phone {
+  left: 22px;
+}
+.placeholder_textarea {
+  left: 22px;
+  top: 0px;
+}
+
+.label input:not(:focus) + .placeholder,
+.label textarea:not(:focus) + .placeholder {
+  color: #9e9e9e;
+}
+
+.label input:hover + .placeholder,
+.label textarea:hover + .placeholder {
+  color: #8774e1;
+}

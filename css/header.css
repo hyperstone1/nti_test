@@ -1,0 +1,36 @@
+.container_header,
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_header {
+  height: 123px;
+  gap: 60px;
+}
+
+.menu {
+  width: 100%;
+  gap: 357.84px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 46px;
+}
+.navbar_li {
+  font-size: 15px;
+}
+.navbar_user {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.navbar_user_li {
+  padding: 13px 15px;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}

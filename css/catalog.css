@@ -1,0 +1,130 @@
+.catalog {
+  padding-top: 164px;
+  padding-bottom: 180px;
+}
+.catalog_text_title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #292d32;
+}
+.catalog_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 440px);
+  grid-auto-rows: 371px;
+  grid-gap: 40px;
+}
+
+.catalog_text {
+  margin-top: -1px;
+  width: 85%;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.catalog_text_title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.catalog_text_subscription {
+  margin-bottom: 48px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #838383;
+}
+
+.catalog_text_btn {
+  margin-bottom: 40px;
+}
+
+.catalog_text_btn .text {
+  margin-left: 0;
+}
+.catalog_grid__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  position: relative;
+  /* overflow: hidden; */
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.catalog_grid__card:nth-of-type(odd) {
+  background: #f9f9f9;
+}
+.catalog_grid__card:nth-child(2n) {
+  background: #f2f2f2;
+}
+
+.card_number {
+  position: absolute;
+  top: 40px;
+  left: 39px;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.card_image {
+  position: relative;
+  top: -19px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.card_image_1 {
+  top: -7px;
+  left: 0px;
+}
+.card_image_2 {
+  top: -18px;
+  left: 28px;
+}
+.card_image_5 {
+  top: 13px;
+  left: 30px;
+}
+
+.card_image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-self: baseline;
+  gap: 6px;
+  padding: 28px 38px;
+  text-align: center;
+}
+
+.card_text__title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  color: #292d32;
+  margin-bottom: 8px;
+}
+
+.card_text__count {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #838383;
+}

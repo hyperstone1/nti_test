@@ -1,0 +1,131 @@
+.last_news {
+  padding: 172px 0px;
+}
+.last_news__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.last_news__header_text {
+  width: 50%;
+}
+.last_news__header_text_title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 25px;
+  color: #292d32;
+}
+.last_news__header_text_description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #838383;
+}
+.all_news {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  gap: 17px;
+}
+.all_news_btn {
+  margin-right: 0px;
+}
+.news_container {
+  padding-top: 70px;
+}
+.news_container__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 415px);
+  grid-auto-rows: 371px;
+  grid-column-gap: 65px;
+  grid-row-gap: 33px;
+}
+
+.news_container__cards_card {
+  position: relative;
+  margin-bottom: 20px;
+}
+.news_container__cards_card_date {
+  position: absolute;
+  right: -28px;
+  top: 61px;
+  padding: 24px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  z-index: 1;
+  gap: 10px;
+}
+.news_container__cards_card_date_number {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #292d32;
+}
+.news_container__cards_card_date_month {
+  font-size: 12px;
+}
+.news_container__cards_card_img {
+  position: relative;
+  border-bottom-right-radius: 45px;
+  overflow: hidden;
+}
+.news_container__cards_card_img::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-color: #ffffff;
+  width: 75%;
+  height: 53px;
+  border-top-right-radius: 34% 60px;
+}
+.btn_news {
+  position: absolute;
+  right: 14px;
+  bottom: 54px;
+  width: 65px;
+  height: 65px;
+  z-index: 1;
+  background: #292d32;
+  border: 12px solid #ffffff;
+}
+.btn_news::after {
+  display: none;
+  position: absolute;
+  content: '';
+  background: url('../assets/news/vector_for_ellipse.svg');
+  width: 94.09px;
+  height: 34.11px;
+  right: 14px;
+  bottom: 15px;
+}
+.news_container__cards_card_title,
+.news_container__cards_card_description {
+  position: relative;
+  padding: 0px 30px 0px 30px;
+}
+.news_container__cards_card_title {
+  margin-top: -24px;
+  padding-right: 100px;
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #292d32;
+}
+
+.news_container__cards_card_description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #292d32;
+  z-index: 1;
+}
