@@ -5,6 +5,7 @@
 @import url('last_news.css');
 @import url('contacts.css');
 @import url('footer.css');
+@import url('burger.css');
 @font-face {
   font-family: 'EuclidCircularA-Bold';
   src: url('../assets/fonts/EuclidCircularA-Bold.ttf') format('truetype');
@@ -32,6 +33,9 @@ body {
   margin: 0;
   font-family: 'Roboto';
 }
+main {
+  position: relative;
+}
 li {
   list-style-type: none;
   cursor: pointer;
@@ -43,4 +47,13 @@ ul {
 .container {
   width: 1400px;
   margin: 0 auto;
+}
+@media (width < 376px) {
+  .container {
+    width: 345px;
+  }
+}
+.no-scroll {
+  overflow: hidden;
+  background-color: #f4f4f4;
 }

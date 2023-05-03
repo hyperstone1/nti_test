@@ -246,3 +246,95 @@ textarea {
 .label textarea:hover + .placeholder {
   color: #8774e1;
 }
+
+@media (max-width: 375px) {
+  .contacts {
+    height: auto;
+  }
+  .contacts_container {
+    flex-direction: column;
+  }
+  .contacts_info {
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 60px;
+  }
+  .contacts_info_text_title {
+    font-size: 30px;
+  }
+  .pl-100 {
+    padding-left: 0;
+  }
+  .contacts_info__requisites {
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .contacts_info__requisites_container {
+    padding: 0;
+  }
+  .contacts_info__requisites_logo {
+    width: 17px;
+    height: 17px;
+  }
+  .contacts_info__requisites_logo img {
+    width: 17px;
+    height: 17px;
+  }
+  .contacts_info__requisites_title {
+    font-size: 15px;
+    line-height: 133.69%;
+  }
+  .contacts_info__requisites_info {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .contacts_info__requisites__text {
+    margin-top: 0px;
+  }
+  .social_icons {
+    gap: 12px;
+  }
+  .social_icon img {
+    width: 26px;
+    height: 26px;
+  }
+  .contacts_img_phone {
+    width: 86.92px;
+    height: 244.05px;
+    left: 210px;
+    top: 500px;
+    transform: scaleX(1.5);
+  }
+  .contacts_img_phone img {
+    transform: rotate(6deg);
+  }
+  .contacts_form {
+    padding: 60px 26px 60px 30px;
+    width: 100%;
+    border-radius: 0;
+  }
+  .contacts_form_title {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .contacts_form_subtitle {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  form {
+    padding-right: 4px;
+  }
+  input,
+  textarea {
+    border-radius: 10px;
+  }
+  .label input {
+    height: 40px;
+  }
+  .label .placeholder {
+    font-size: 15px;
+  }
+  .input_container:nth-of-type(3) {
+    margin-bottom: 30px;
+  }
+}

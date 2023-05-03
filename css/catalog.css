@@ -128,3 +128,52 @@
 
   color: #838383;
 }
+
+@media (max-width: 375px) {
+  .catalog {
+    padding: 120px 0px;
+  }
+  .catalog_grid {
+    grid-template-columns: repeat(1, 345px);
+    grid-auto-rows: auto;
+  }
+  .catalog_text {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .catalog_text_btn {
+    margin-bottom: 0px;
+  }
+  .catalog_text_title {
+    width: 93%;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .catalog_text_subscription {
+    width: 99%;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  .card_number {
+    left: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .card_image {
+  }
+  .card_text {
+    padding: 20px;
+  }
+  .card_text__title {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .card_text__count {
+    font-size: 15px;
+    line-height: 133.69%;
+  }
+}

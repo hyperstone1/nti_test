@@ -132,19 +132,99 @@
 }
 .best_products_right__good_offer {
   position: relative;
+  margin-top: 14px;
 }
 .good_offer__text {
   display: inline-block;
-  position: relative;
+  position: absolute;
   width: 181px;
   left: 40px;
-  bottom: 162px;
+  bottom: 263px;
   font-size: 25px;
   line-height: 130%;
 }
 .good_offer__arrow {
   position: relative;
   margin-left: 40px;
-  bottom: 83px;
   width: fit-content;
+}
+
+@media (max-width: 375px) {
+  .best_products {
+    flex-direction: column;
+  }
+  .best_products__left {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .best_products__left_text {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  .new_collection {
+    font-size: 15px;
+    line-height: 133.69%;
+    color: #838383;
+  }
+  .title {
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+    color: #292d32;
+  }
+  .best_products__left_dell {
+    top: 18px;
+    left: 32px;
+    width: 293px;
+    height: 77px;
+  }
+  .best_products__left_dell img {
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .best_products__left_notebook {
+    margin-top: 10px;
+    padding-right: 0px;
+  }
+  .btn {
+    width: 45px;
+    height: 45px;
+  }
+  .btn_text .text {
+    font-size: 15px;
+  }
+  .best_products_right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  
+  .best_products_right__notebook img {
+    width: 252px;
+    float: right;
+  }
+  .dots {
+    right: 118px;
+    bottom: 26px;
+  }
+  .good_offer__text {
+    position: absolute;
+    height: 100%;
+    width: 136px;
+    top: 59px;
+    left: 0;
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  .good_offer__arrow {
+    position: absolute;
+    top: -56px;
+    right: 0px;
+  }
 }
