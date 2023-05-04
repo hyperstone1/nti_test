@@ -23,6 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'Мы лучший официальный поставщик продукции DELL в России и странах СНГ';
       cardTitle4.textContent = 'Мы являемся официальным партнером DELL';
       contactsContainer.classList.remove('container');
+    } else {
+      if (!contactsContainer.classList.contains('container')) {
+        contactsContainer.classList.add('container');
+      }
     }
   }
 

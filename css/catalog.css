@@ -165,6 +165,9 @@
   }
   .card_image {
   }
+  .card_image_5 {
+    left: 0;
+  }
   .card_text {
     padding: 20px;
   }
