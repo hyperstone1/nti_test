@@ -37,6 +37,7 @@ header {
   gap: 25px;
 }
 .navbar_user_li {
+  position: relative;
   padding: 13px 15px;
 }
 .logo {
@@ -47,8 +48,8 @@ header {
   display: none;
   position: absolute;
   width: 405px;
-  top: 128px;
-  right: 319px;
+  top: 88px;
+  left: -175px;
   background: #ffffff;
   border-radius: 20px;
   z-index: 11;
@@ -137,8 +138,8 @@ header {
   }
   .user_nav {
     width: 240px;
-    top: 93px;
-    right: 55px;
+    top: 70px;
+    left: -93px;
   }
   .user_nav::after {
     top: -9px;

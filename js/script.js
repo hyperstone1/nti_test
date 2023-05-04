@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const popup = document.querySelector('.popup');
   const user = document.querySelector('.user');
   const userNav = document.querySelector('.user_nav');
+  const header = document.querySelector('header');
 
   function handleWindowResize() {
     const { width: windowWidth, height: windowHeight } = screen;
@@ -48,8 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   });
 
-  user.addEventListener('click', function toggleUser() {
-    userNav.classList.toggle('active');
+  header.addEventListener('mouseleave', function () {
+    userNav.classList.remove('active');
+  });
+
+  user.addEventListener('mouseenter', function () {
+    userNav.classList.add('active');
   });
 
   menuBtn.addEventListener('click', function toggleMenu() {
