@@ -4,8 +4,8 @@
   top: 88px;
   left: 0;
   width: 100%;
-  height: 56%;
-  padding: 56px 38px 64px;
+  height: 58.3%;
+  padding: 58px 13px 28px;
   background: #ffffff;
   transform: translateX(-100%);
   transition: transform 0.5s;
@@ -55,14 +55,14 @@
   border-radius: 1px;
 }
 
-.popup {
+.overlay {
   position: absolute;
   display: none;
   width: 100%;
   height: 100%;
   z-index: 1;
 }
-.popup.active {
+.overlay.active {
   display: block;
   background: rgba(0, 0, 0, 0.5);
   z-index: 11;

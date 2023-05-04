@@ -10,8 +10,22 @@
 }
 .best_products__left_dell {
   position: absolute;
-  top: 97.4px;
-  left: 260px;
+  top: 32.4px;
+  left: 246px;
+  font-family: 'Rubik-One';
+  background: linear-gradient(
+    179deg,
+    rgba(255, 255, 255, 0.685417) 47.87%,
+    rgba(242, 242, 242, 1) 68%
+  );
+  font-weight: 400;
+  font-size: 286px;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.7;
 }
 .best_products__left_notebook {
   position: relative;
@@ -150,6 +164,7 @@
     padding-top: 80px;
     padding-left: 0;
     padding-bottom: 0;
+    z-index: 111;
   }
   .new_collection {
     padding-bottom: 6px;
@@ -166,10 +181,18 @@
     color: #292d32;
   }
   .best_products__left_dell {
-    top: 18px;
-    left: 32px;
+    top: -7px;
+    left: 24px;
     width: 293px;
-    height: 77px;
+    font-size: 111px;
+    z-index: 111;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.685417) 2.87%,
+      rgba(242, 242, 242, 1) 84%
+    );
+    -webkit-background-clip: text;
+    opacity: 1;
   }
   .best_products__left_dell img {
     width: 100%;

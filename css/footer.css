@@ -17,7 +17,7 @@
 .footer_navbar_menu {
   display: flex;
   align-items: flex-start;
-  gap: 180px;
+  gap: 183px;
   padding-bottom: 48px;
 }
 .menu_li:first-child {
@@ -61,6 +61,30 @@
 .info_social_icons {
   margin-top: 7px;
 }
+.dell_img {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  width: 515px;
+  height: 173px;
+  font-family: 'Rubik-One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 187px;
+  line-height: 92.69%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f2f2f2 0%, rgba(242, 242, 242, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.dell_img img {
+  float: right;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 375px) {
   .footer {
     background: #f2f2f2;
@@ -175,9 +199,20 @@
     font-size: 15px;
   }
   .dell_img {
-    right: 16px;
-    bottom: 15px;
-    width: 215px;
     position: absolute;
+    bottom: 15px;
+    right: 16px;
+    width: 215px;
+    height: 73.33px;
+    font-size: 78px;
+    line-height: 92.69%;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+  /* .dell_img img {
+    float: right;
+    width: 100%;
+    height: 100%;
+  } */
 }

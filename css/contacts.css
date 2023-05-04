@@ -130,28 +130,20 @@ textarea {
   border-radius: 20px;
   background: transparent;
 }
-/* .contacts_btn {
-  padding-bottom: 103px;
-} */
+
 .contacts_btn_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
-
   color: #ffffff;
 }
 .email {
   margin-top: 12px;
 }
-.social {
-}
 .social_icons {
   display: flex;
   gap: 18.29px;
   margin-left: 3px;
-}
-.social_icon {
 }
 .pl-100 {
   padding-left: 100px;
@@ -247,6 +239,25 @@ textarea {
 .label textarea:hover + .placeholder {
   color: #8774e1;
 }
+.our_contacts {
+  position: absolute;
+  left: 10px;
+  bottom: 50px;
+  font-family: 'Rubik-One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 255px;
+  line-height: 92.69%;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #eeeeee -45.37%, rgba(238, 238, 238, 0) 95.17%),
+    linear-gradient(89.91deg, rgba(255, 255, 255, 0.85) 11.75%, rgba(255, 255, 255, 0) 162.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  opacity: 0.6;
+}
 
 @media (max-width: 375px) {
   .contacts {
@@ -257,6 +268,7 @@ textarea {
   }
   .contacts_container {
     flex-direction: column;
+    overflow: hidden;
   }
   .contacts_info {
     width: 100%;
@@ -321,14 +333,14 @@ textarea {
     height: 26px;
   }
   .contacts_img_phone {
-    width: 86.92px;
-    height: 244.05px;
-    left: 220px;
-    top: 426px;
-    transform: matrix3d(1, 0.1, 0, 0, 0, 0.7, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.67);
+    width: 88.92px;
+    height: 254.05px;
+    left: 201px;
+    top: 417px;
+    transform: rotate(14deg);
   }
   .contacts_img_phone img {
-    transform: rotate(10deg);
+    width: auto;
   }
   .contacts_form {
     padding: 53px 26px 60px 30px;
@@ -365,5 +377,8 @@ textarea {
   }
   .input_container:nth-of-type(3) {
     margin-bottom: 33px;
+  }
+  .our_contacts {
+    display: none;
   }
 }

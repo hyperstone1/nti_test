@@ -89,6 +89,19 @@ header {
   border-radius: 2px;
   transform: matrix(0.73, 0.68, -0.73, 0.68, 0, 0);
 }
+.cart {
+  position: relative;
+}
+.toast {
+  padding: 1px 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  background: #48a4eb;
+  border-radius: 50%;
+  color: white;
+}
 
 @media (width < 376px) {
   .container_header,

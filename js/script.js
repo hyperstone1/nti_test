@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
   //Кнопка бургер-меню
   const menuBtn = document.querySelector('.menu-btn');
 
-  // элементы бергер меню
+  // элементы: бургер меню и 
   const menu = document.querySelector('.burger-menu');
-  const popup = document.querySelector('.popup');
+  const overlay = document.querySelector('.overlay');
 
   //иконка юзера и меню для него
   const user = document.querySelector('.user');
@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Функция получения разреров экрана
   function handleWindowResize() {
     const { width: windowWidth, height: windowHeight } = screen;
-    console.log(`Ширина окна: ${windowWidth} Высота окна: ${windowHeight}`);
 
     // Изменение контента внутри элементов
     if (windowWidth <= 375) {
@@ -57,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if ((!menuBtnClicked && !burgerMenuClicked) || navbarLiClicked) {
       menu.classList.remove('active');
-      popup.classList.remove('active');
+      overlay.classList.remove('active');
       body.classList.remove('no-scroll');
       document.removeEventListener('click', closeMenu);
     }
@@ -65,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Отправка формы
   form.addEventListener('submit', function (event) {
     event.preventDefault();
-    console.log(nameInput.value);
     const errors = {};
     // проверяем корректность имени
     if (!/^[a-zA-Zа-яА-Я ]{2,30}$/.test(nameInput.value)) {
@@ -130,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ивент для открытия/закрытия меню
   menuBtn.addEventListener('click', function toggleMenu() {
     menu.classList.toggle('active');
-    popup.classList.toggle('active');
+    overlay.classList.toggle('active');
     body.classList.toggle('no-scroll');
     if (menu.classList.contains('active')) {
       document.addEventListener('click', closeMenu);

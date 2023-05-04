@@ -16,10 +16,21 @@
   margin-left: 179px;
   z-index: 1;
 }
-.best_quality_img {
+.best_quality_text {
   position: absolute;
   top: 164px;
   left: 10px;
+  font-family: 'Rubik-One';
+  font-weight: 400;
+  font-size: 187px;
+  line-height: 92.69%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.7;
 }
 .best_quality__right {
   position: relative;
@@ -139,8 +150,9 @@
     flex-direction: column;
     order: 3;
   }
-  .best_quality_img {
+  .best_quality_text {
     top: 30px;
+    font-size: 72px;
   }
   .card {
     padding: 15px 21px 15px 15px;
