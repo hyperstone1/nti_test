@@ -14,24 +14,12 @@
   left: 260px;
 }
 .best_products__left_notebook {
+  position: relative;
   margin-top: 74px;
   padding-right: 60px;
   z-index: 1;
 }
-.dots {
-  /* display: none; */
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 10px;
-  position: absolute;
-  width: 69px;
-  height: 9px;
-  right: 40px;
-  bottom: 169px;
-}
+
 .dot {
   display: flex;
   align-items: center;
@@ -204,15 +192,12 @@
     flex-direction: column-reverse;
     width: 100%;
   }
-  
+
   .best_products_right__notebook img {
     width: 252px;
     float: right;
   }
-  .dots {
-    right: 118px;
-    bottom: 26px;
-  }
+
   .good_offer__text {
     position: absolute;
     height: 100%;
@@ -224,7 +209,12 @@
   }
   .good_offer__arrow {
     position: absolute;
-    top: -56px;
+    width: 64px;
+    height: 14px;
+    top: -52px;
     right: 0px;
+  }
+  .scroll_catalog {
+    display: none;
   }
 }
