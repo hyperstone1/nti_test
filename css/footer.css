@@ -12,6 +12,7 @@
 .footer_logo img {
   width: 100%;
   height: 100%;
+  mix-blend-mode: darken;
 }
 .footer_navbar_menu {
   display: flex;
