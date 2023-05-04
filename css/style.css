@@ -50,6 +50,10 @@ ul {
   width: 1400px;
   margin: 0 auto;
 }
+.label input.error,
+.error {
+  border: 1px solid #d74343;
+}
 @media (width < 376px) {
   .container {
     width: 345px;

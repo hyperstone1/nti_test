@@ -144,7 +144,7 @@
   .best_products__left {
     width: 100%;
     flex-direction: column;
-    padding: 0 15px;
+    padding: 0px 15px 10px 15px;
   }
   .best_products__left_text {
     padding-top: 80px;
@@ -152,12 +152,15 @@
     padding-bottom: 0;
   }
   .new_collection {
+    padding-bottom: 6px;
     font-size: 15px;
     line-height: 133.69%;
     color: #838383;
+    word-spacing: -2px;
   }
   .title {
-    width: 100%;
+    padding-bottom: 28px;
+    width: 70%;
     font-size: 30px;
     line-height: 35px;
     color: #292d32;
@@ -181,6 +184,7 @@
     padding-right: 0px;
   }
   .btn {
+    margin-right: 15px;
     width: 45px;
     height: 45px;
   }
@@ -194,8 +198,13 @@
   }
 
   .best_products_right__notebook img {
+    display: block;
+    position: relative;
+    padding-right: 0;
     width: 252px;
+    height: 166px;
     float: right;
+    left: -4px;
   }
 
   .good_offer__text {
@@ -211,8 +220,8 @@
     position: absolute;
     width: 64px;
     height: 14px;
-    top: -52px;
-    right: 0px;
+    top: -50px;
+    right: 14px;
   }
   .scroll_catalog {
     display: none;

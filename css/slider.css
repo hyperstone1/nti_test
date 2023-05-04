@@ -54,12 +54,13 @@
 
 @media (max-width: 375px) {
   .swiper-container {
-    width: 327px;
-    height: 325px;
+    width: 95% !important;
+    height: 325px !important;
+    margin-left: 8px;
   }
   .swiper-pagination {
-    bottom: 28px !important;
-    right: 111px !important;
+    bottom: 16px !important;
+    right: 104px !important;
   }
   .swiper-pagination-bullet {
     width: 3px !important;
