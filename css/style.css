@@ -65,6 +65,14 @@ ul {
   cursor: pointer;
   z-index: 111;
 }
+.btn_text .text,
+.good_offer__arrow,
+.btn_scroll {
+  cursor: pointer;
+}
+.btn_scroll {
+  z-index: 111;
+}
 @media (width < 376px) {
   .container {
     width: 345px;
