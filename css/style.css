@@ -61,6 +61,10 @@ ul {
 .error {
   border: 1px solid #d74343;
 }
+.btn {
+  cursor: pointer;
+  z-index: 111;
+}
 @media (width < 376px) {
   .container {
     width: 345px;
